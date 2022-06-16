@@ -1,0 +1,27 @@
+{
+                "text": "¿Cómo puedo ayudarte?",
+                "reply_markup": {
+                    "one_time_keyboard": true,
+                    "resize_keyboard": true,
+                    "inline_keyboard": [
+                        [
+                            {
+                                "text": "Matricula",
+                                "callback_data": "matricula"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Personajes históricos",
+                                "callback_data": "personajes"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Salir",
+                                "callback_data": "salir"
+                            }
+                        ]
+                    ]
+                }
+}

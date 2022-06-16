@@ -1,0 +1,22 @@
+const { Card } = require("dialogflow-fulfillment");
+
+const addBasicCard = (
+  titleInfo,
+  subtitleInfo,
+  textInfo,
+  imageName,
+  buttonTitle,
+  buttonURL
+) => {
+  return new Card({
+    title: titleInfo,
+    imageUrl: imageName,
+    text: textInfo.concat(`\nbreaks`),
+    buttonText: buttonTitle,
+    buttonUrl: buttonURL,
+  });
+};
+
+module.exports = {
+  addBasicCard: addBasicCard,
+};
