@@ -39,7 +39,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Install
 
-    $ git clone [https://gitlab.com/msb6531/dialogflow-webhook](https://github.com/darioriosdev/chatbot-server.git)
+    $ git clone (https://github.com/darioriosdev/chatbot-server.git)
     $ cd chatbot-server
     $ npm install
 
